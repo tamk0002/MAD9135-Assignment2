@@ -7,7 +7,7 @@ class Todolist extends Component {
         const todos = this.props.todos.map((item) => {
             return (
                 <Todo {...item} />
-            )
+            );
         });
         return (
             <div>

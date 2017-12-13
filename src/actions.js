@@ -1,6 +1,6 @@
-const TOGGLE_STATUS = "TOGGLE_STATUS";
-const ADD_TODO_CHANGED = "ADD_TODO_CHANGED";
-const SAVE_NEW_TODO = "SAVE_NEW_TODO";
+export const TOGGLE_STATUS = "TOGGLE_STATUS";
+export const ADD_TODO_CHANGED = "ADD_TODO_CHANGED";
+export const SAVE_NEW_TODO = "SAVE_NEW_TODO";
 
 export function toggleStatus(id) {
     return {
